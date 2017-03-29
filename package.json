@@ -1,0 +1,30 @@
+{
+  "name": "scas-angular",
+  "version": "0.0.1",
+  "description": "scas-angular",
+  "main": "index.js",
+  "bin": {
+    "scas-angular": "bin/scas-angular.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavahatnuke/scas-angular.git"
+  },
+  "keywords": [
+    "plus",
+    "scas-angular"
+  ],
+  "author": "slava hatnuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavahatnuke/scas-angular/issues"
+  },
+  "homepage": "https://github.com/slavahatnuke/scas-angular#readme",
+  "devDependencies": {}
+}
