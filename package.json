@@ -1,16 +1,14 @@
 {
   "name": "scas-angular",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scas-angular",
   "main": "index.js",
-  "bin": {
-    "scas-angular": "bin/scas-angular.js"
-  },
+  "bin": {},
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "echo ok"
   },
   "repository": {
     "type": "git",
