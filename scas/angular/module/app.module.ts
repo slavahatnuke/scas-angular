@@ -18,8 +18,7 @@ import { {{{name | Camel}}}Service } from './{{{name | kebab}}}.service';
     {{{name | Camel }}}RoutingModule
   ],
   providers: [{{{ name | Camel }}}Service],
-  // bootstrap: [{{{name | Camel}}}Component],
-
-  exports: [{{{name | Camel}}}Component]
+  exports: [{{{name | Camel}}}Component],
+  // bootstrap: [{{{name | Camel}}}Component]
 })
 export class {{{name | Camel}}}Module { }

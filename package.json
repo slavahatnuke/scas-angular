@@ -1,6 +1,6 @@
 {
   "name": "scas-angular",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "scas-angular",
   "main": "./index.js",
   "bin": {},
