@@ -4,7 +4,7 @@ import { {{{ name | Camel }}}Component} from "./{{{ name | kebab }}}.component";
 import { {{{ name | Camel}}}Resolver} from "./{{{ name | kebab }}}.resolver";
 import { {{{ name | Camel}}}CanActivate} from "./{{{ name | kebab }}}.canActivate";
 
-const routes: Routes = [
+export const {{{ name | camel}}}Routes: Routes = [
   {
     path: '{{{ name | kebab }}}',
     component: {{{ name | Camel }}}Component,
@@ -30,7 +30,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forChild(routes)
+    RouterModule.forChild({{{ name | camel}}}Routes)
   ],
   providers: [{{{ name | Camel}}}Resolver, {{{ name | Camel}}}CanActivate],
   exports: [RouterModule]
