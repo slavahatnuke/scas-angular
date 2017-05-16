@@ -1,6 +1,6 @@
 {
   "name": "scas-angular",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "This is Angular 2/4 scaffolding.",
   "main": "./index.js",
   "bin": {},

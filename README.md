@@ -13,7 +13,7 @@ This is Angular 2/4 scaffolding. [+1G](http://plus1generation.com/)
 // ...
 imports: [
 	{ path: 'scas/.scas' },
-	{ path: 'scas-angular' },
+	{ path: 'node_modules/scas-angular' },
 ]
 // ...
 ```
