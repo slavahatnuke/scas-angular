@@ -1,7 +1,7 @@
 {
   "name": "scas-angular",
   "version": "0.0.8",
-  "description": "scas-angular",
+  "description": "This is Angular 2/4 scaffolding.",
   "main": "./index.js",
   "bin": {},
   "directories": {
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "plus",
+    "scas",
     "scas-angular"
   ],
   "author": "slava hatnuke",
